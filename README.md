@@ -1,2 +1,1 @@
-# web_personal
-deployar en pythonanywhere
+# curriculum_vitae

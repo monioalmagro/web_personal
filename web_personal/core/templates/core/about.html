@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Quien soy</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">  
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Emiliano Mazzurque</h2>   
+        <p>Vivo en Boedo (CABA) muy cerca del Distrito Tecnológico. Desde muy joven soy un apasionado de la tecnología. A los 13 años hacía mi primer contacto con ella a través de mi incorporación a la Escuela Técnica. Luego, gracias a ser egresado como Técnico Electrónico con especialidad en Telecomunicaciones, ingresé en el mundo de la Electrónica aplicada a la industria y me inicie como programador de PLC. En una segunda etapa laboral, continuando la formación continua, Comencé a programar Robots y Sistemas de automatización de gran envergadura en la industria Automotriz .</p>
+        <br>
+        <p>Esta etapa me encuentra estudiando Analista de Sistemas en la UTN (Universidad Tecnológica Nacional) y también Desarrollo web (Django) EN CFP18.
+Trabajando de desarrollador, Python - Django,  independiente y de profesor de programación. Compartiendo experiencias y conocimientos en la educación pública insertando a jóvenes y no tanto en el mundo de la PROGRAMACIÓN.
+</p>
+    </div>
+</div>
+{% endblock %}
